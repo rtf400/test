@@ -50,6 +50,4 @@
    >> do_testing();
 
 
-Note: in the program, we provide training models of LFPW (68 landmarks) in folder:
-"./model". The program does not optimize speed and memory during training, the 
-memory problem may happens if you train on too much data.
+Note: blabla
