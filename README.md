@@ -1,5 +1,34 @@
 # test
-   - 
+# Matlab Implementation of Supervised Descent Method
+
+A simple Matlab implementation of Supervised Descent Method (SDM) for Face
+Alignment.
+
+I provide both training and testing modules and one trained model of LFPW subset of 300-W dataset.
+
+You can find the ogirinal paper of my implementation:
+
+Xiong et F. De la Torre, 
+Supervised Descent Method and its Applications to Face Alignment, 
+CVPR 2013.
+
+===========================================================================
+
+# Dependency:
+   - Vlfeat library: http://www.vlfeat.org/
+   - libLinear: www.csie.ntu.edu.tw/~cjlin/liblinear/
+
+# Datasets in use:
+
+[300-W] http://ibug.doc.ic.ac.uk/resources/facial-point-annotations/
+
+# How to use:
+
+1. Download 300-W data (i.e. LFPW) from above link and put into "./data" 
+   folder, then correct the dataset path to your dataset foler in setup.m
+
+   >> mkdir -p data
+  
    For example:
 
 	options.trainingImageDataPath = './data/lfpw/trainset/';
@@ -9,9 +38,13 @@
 	options.testingImageDataPath  = './data/lfpw/testset/';
 
 	options.testingTruthDataPath  = './data/lfpw/testset/';
-	
-	
->> mkdir -p lib
+   
+2. Download and install dependencies: libLinear, Vlfeat, mexopencv, put
+   into "./lib" folder and compile if necessary. Make sure you already 
+   addpath(...) all folders in matlab. 
+   Check and correct the library path in setup.m.
+
+   >> mkdir -p lib
    
    libLinear: 
      - Open Matlab
