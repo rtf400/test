@@ -10,17 +10,12 @@
   
    aaa:
    
-2. Download and install dependencies: libLinear, Vlfeat, mexopencv, put
-   into "./lib" folder and compile if necessary. Make sure you already 
-   addpath(...) all folders in matlab. 
-   Check and correct the library path in setup.m.
+2. bb
 
-   >> mkdir -p lib
+   >> bb
    
-   libLinear: 
-     - Open Matlab
-     - Go to i.e. lib/liblinear-1.96/matlab/ in Matlab editor.
-     - Run make.m to comile *.mex files.
+   bbb: 
+     - cc
 
    Vlfeat:
      - >> cd lib/vlfeat/ && make
