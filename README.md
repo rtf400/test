@@ -1,19 +1,7 @@
 # test
    - 
 
-   - Vlfeat library: http://www.vlfeat.org/
-   - libLinear: www.csie.ntu.edu.tw/~cjlin/liblinear/
-
-# Datasets in use:
-
-[300-W] http://ibug.doc.ic.ac.uk/resources/facial-point-annotations/
-
-# How to use:
-
-1. Download 300-W data (i.e. LFPW) from above link and put into "./data" 
-   folder, then correct the dataset path to your dataset foler in setup.m
-
-   >> mkdir -p data
+   >>
   
    For example:
 
