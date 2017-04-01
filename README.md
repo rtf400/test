@@ -2,7 +2,7 @@
 # aa:
    - 
    - 
-# How to use:
+# aaa:
 
 1. aaa
 
@@ -36,18 +36,11 @@
        >> ldconfig -p | grep libvl.so
        Check again: >> ldd vl_hog.mexglx
       
-
-3. If you run first time. You should set these following parameters
-   to learn shape and variation. For later time, reset to 0.
-
-   options.learningShape     = 1;
-   options.learningVariation = 1;
-
-4. Do training:
-   >> run_training();
+3. ee:
+   >> ee
    
-5. Do testing:
-   >> do_testing();
+4. ff:
+   >> ff
 
 
 Note: blabla
