@@ -9,9 +9,9 @@
 	options.testingImageDataPath  = './data/lfpw/testset/';
 
 	options.testingTruthDataPath  = './data/lfpw/testset/';
-   
-2. 
-   >> mkdir -p lib
+	
+	
+>> mkdir -p lib
    
    libLinear: 
      - Open Matlab
