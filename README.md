@@ -17,16 +17,8 @@
    bbb: 
      - cc
 
-   Vlfeat:
-     - >> cd lib/vlfeat/ && make
-     - cd ./toolbox in Matlab editor.
-     - Run vl_setup
-     - Compile mex Hog functions:
-       >> cd misc
-       >> mex -L../../bin/glnx86 -lvl -I../ -I../../ vl_hog.c
-     - Setup libvl.so path.
-     - Assume that your libvl.so located at: <vlfeat_folder>/bin/glnx86
-       Create soft link:
+   ddd:
+     - ddd:
        >> ln -s <vlfeat_folder>/bin/glnx86/libvl.so /usr/local/libvl.so
        Check if the libvl.so is ready to use.
        >> ldd vl_hog.mexglx
