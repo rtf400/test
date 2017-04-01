@@ -4,20 +4,11 @@
    - 
 # How to use:
 
-1. Download 300-W data (i.e. LFPW) from above link and put into "./data" 
-   folder, then correct the dataset path to your dataset foler in setup.m
+1. aaa
 
-   >> mkdir -p data
+   >> aaa
   
-   For example:
-
-	options.trainingImageDataPath = './data/lfpw/trainset/';
-
-	options.trainingTruthDataPath = './data/lfpw/trainset/';
-                                   
-	options.testingImageDataPath  = './data/lfpw/testset/';
-
-	options.testingTruthDataPath  = './data/lfpw/testset/';
+   aaa:
    
 2. Download and install dependencies: libLinear, Vlfeat, mexopencv, put
    into "./lib" folder and compile if necessary. Make sure you already 
