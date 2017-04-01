@@ -1,6 +1,5 @@
 # test
    - 
-  
    For example:
 
 	options.trainingImageDataPath = './data/lfpw/trainset/';
@@ -11,11 +10,7 @@
 
 	options.testingTruthDataPath  = './data/lfpw/testset/';
    
-2. Download and install dependencies: libLinear, Vlfeat, mexopencv, put
-   into "./lib" folder and compile if necessary. Make sure you already 
-   addpath(...) all folders in matlab. 
-   Check and correct the library path in setup.m.
-
+2. 
    >> mkdir -p lib
    
    libLinear: 
